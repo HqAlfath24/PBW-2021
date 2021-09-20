@@ -1,0 +1,27 @@
+body{
+    background-color: navy;
+}
+h1{
+    color: grey;
+    font-family: Arial, Helvetica;
+    font-style: italic;
+    font: bold;
+}
+img{
+    width: 200px;
+    height: 300px;;
+}
+pre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font : bold;
+}
+table {
+    text-align: left;
+    border-style: solid;
+}
+footer{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
