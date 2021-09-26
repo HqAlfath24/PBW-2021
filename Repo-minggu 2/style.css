@@ -9,14 +9,8 @@ h1{
 }
 img{
     width: 200px;
-    height: 300px;;
 }
-pre{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    font : bold;
-}
-table, th, td{
+.makul #tabelmakul {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: left;
