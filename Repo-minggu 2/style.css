@@ -1,5 +1,13 @@
 body{
-    background-color: navy;
+    
+}
+.profil{
+    background-image: url("Menikmati-Keindahan-Indonesia.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
 }
 h1{
     color: grey;
@@ -10,12 +18,11 @@ h1{
 img{
     width: 200px;
 }
-.makul #tabelmakul {
+.makul {
     border: 1px solid black;
-    border-collapse: collapse;
+    border-collapses: 1px ;
     text-align: left;
 }
-
 footer{
     color: whitesmoke;
     background-color: black;
