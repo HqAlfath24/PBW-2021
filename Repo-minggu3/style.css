@@ -1,7 +1,6 @@
 /*css body */
 body{
     margin: 0;
-    background-color: darkgray;
     background-image: url("../Menikmati-Keindahan-Indonesia.jpg");
     background-repeat: no-repeat;
     background-position: unset;
@@ -98,7 +97,14 @@ footer{
     text-align: center;
     margin: 0;
 }
-video {
-    width: 100%;
-    height: auto;
+
+video{
+    width: 450px;
+    margin: auto;
+}
+div .data{
+    width: 80%;
+}
+audio{
+    width: 500px;
 }
