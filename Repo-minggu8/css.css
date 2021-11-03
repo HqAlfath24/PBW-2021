@@ -1,0 +1,35 @@
+body{
+    background-position: center;
+    -webkit-background-composite: 100%;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+.hal{
+    background-color: grey;
+}
+/*css nav*/
+nav{
+    text-align: right;
+    margin-top: -60px;
+    background-color: navy;
+    height: 50px;
+}
+a{
+    margin-right: 30px;
+    margin-top: 500px;
+    background-color: navy;
+    color: whitesmoke;
+    text-decoration: none;
+}
+image{
+    padding: 50px;
+    margin: 80px;
+}
+/* css footer */
+footer{
+    position: relative;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    height: 30px;
+}
