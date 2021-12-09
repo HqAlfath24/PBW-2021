@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>method array</title>
+</head>
+<body>
+    <script>
+        // Method filter
+        const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        // ambil data yang hanya habis dibagi dua
+        const filteredArray = angka.filter(item => item % 2 === 0);
+        console.log(filteredArray) // -> [2, 4, 6, 8]
+        document.write(angka+"<br>");
+        document.write(filteredArray+"<br>");
+        // Method Includes
+        var tanaman = ["Padi", "Kacang", "Jagung", "Kedelai"];
+        document.write(tanaman+"<br>");
+        // apakah kacang sudah ada di dalam array tanaman?
+        var adaKacang = tanaman.includes("Kacang");
+        console.log(adaKacang); // -> true
+        document.write(adaKacang+"<br>");
+        // apakah bayam ada?
+        var adaBayam = tanaman.includes("Bayam");
+        console.log(adaBayam); // -> false
+        document.write(adaBayam+"<br>");
+        // method short
+        var alfabet=["a","f","z","e","r","g"];
+        document.write(alfabet+" -(sebelum)<br>");
+        var nomer=[3,1,2,6,8,5];
+        document.write(nomer+" -(sebelum)<br>");
+        console.log(alfabet.sort);//-> ["a", "e", "f", "g", "r", "z"]
+        console.log(nomer.sort()); // -> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        document.write(alfabet+" -(sesudah)<br>");
+        document.write(nomer+" -(sesudah)<br>");
+
+        
+
+    </script>
+</body>
+</html>
