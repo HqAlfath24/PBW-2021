@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>belajar coding</title>
+    <title>belajar json</title>
     <script type="text/javascript">
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-            // Typical action to be performed when the document is ready:
-            var data=JSON.parse(xhttp.responseText);
-            console.log(data);
+                var data=JSON.parse(xhttp.responseText);
+                data.forEach(function(element) {
+                    document.getElementById("demo").innerHTML +="NIM :" +
+                    element.nim + "<br>Nama :" + element.nama + "<br>Alamat :" + element.alamat + "<br><br>";
+                });
             }
         };
         xhttp.open("GET", "data.json", true);
@@ -19,6 +21,6 @@
     </script>
 </head>
 <body>
-    
+    <p id="demo"></p>
 </body>
 </html>
